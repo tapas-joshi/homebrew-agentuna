@@ -13,6 +13,9 @@ brew install --cask agentuna
 brew install agentuna-cli
 ```
 
+Since Homebrew 6, third-party taps must be trusted: `brew install tapas-joshi/agentuna/agentuna`
+(the fully qualified name) trusts just this install, or run `brew trust tapas-joshi/agentuna` once.
+
 The two conflict on purpose: the cask already links `agentuna` from the app bundle.
 
 ## About the app build
